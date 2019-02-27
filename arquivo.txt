@@ -1,3 +1,1 @@
-Olá Mundo teste com o editor VIM !!!
-
-Denilson Marcio
+:wq
