@@ -18,7 +18,7 @@ if(mysqli_query($conexao, $consulta))
 }
 else
 {
-     echo "Não foi possivel realizar o cadastro!";
+     echo "Não foi possível realizar o cadastro!";
 	 echo "***********************************";
      echo mysqli_error($conexao);
 }

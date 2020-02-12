@@ -9,7 +9,7 @@ $consulta = "delete from crud_cadastro where ID_crud=".$crud_id."";
 
 if(mysqli_query($conexao, $consulta))
 {
-     echo "Excluido do banco de dados!";
+     echo "Excluído do banco de dados!";
 }
 else
 {

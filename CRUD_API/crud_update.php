@@ -17,7 +17,7 @@ if(mysqli_query($conexao, $consulta))
 }
 else
 {
-     echo "Não foi possivel atualizar o cadastro.";
+     echo "Não foi possível atualizar o cadastro.";
 	 echo "***********************************";
 	 echo mysqli_error($conexao);
 }
