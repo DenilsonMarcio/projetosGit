@@ -205,7 +205,8 @@ public class MainActivity extends AppCompatActivity {
                             public void run() {
 
                                 try {
-                                    //txtAviso.setText(response.body().string());
+                                    /*txtAviso.setText(response.body().string());
+                                    Teste no GIT*/
 
                                     try {
                                         String data = response.body().string();
